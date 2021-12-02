@@ -9,6 +9,8 @@
     --first-color:black;
 }
 
+    /* NAV STUFF */
+
 h2 {
     font-family: var(--second-font);
     font-size: 35px;
@@ -19,7 +21,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 header nav {
     display: flex;
@@ -38,6 +39,7 @@ a {
 .contact {
     margin: 0;
 }
- .logo {
-     background-color: aqua;
- }
+
+/* MAIN STUFF */
+
+
