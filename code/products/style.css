@@ -72,5 +72,38 @@ header nav {
     justify-content: center;
 }
 .OurProducts-title {
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
+}
+
+.products-pics {
+    margin: 0 160px;
+    height: 600px;
+}
+
+.pic1-cont {
+    width: 360px;
+    height: 243px;
+    background-image: url(./icons/gallery-img1.jpg);
+    background-size: cover;
+}
+
+.pic2-cont {
+    width: 360px;
+    height: 243px;
+    background-image: url(./icons/gallery-img2.jpg);
+    background-size: cover;
+}
+
+.pic4-cont {
+    width: 360px;
+    height: 243px;
+    background-image: url(./icons/gallery-img4.jpg);
+    background-size: cover;
+}
+
+.pic5-cont {
+    width: 360px;
+    height: 243px;
+    background-image: url(./icons/gallery-img5.jpg);
+    background-size: cover;
 }
