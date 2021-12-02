@@ -26,10 +26,11 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 50px;
+    margin: 0 160px;
+    height: 50px;
 }
 
-a {
+ header nav a {
     font-family: var(--first-font);
     margin-right: 50px;
     text-decoration: none;
@@ -40,6 +41,26 @@ a {
     margin: 0;
 }
 
-    /* PRODUCTS SECTION */
+    /* TITLE & DESCRIPTION SECTION */
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(./icons/home-bg.jpg);
+    background-size: cover;
+    color:white;
+}
 
+.title {
+   font-family: var(--second-font);
+   font-size: 50px; 
+}
 
+.title-des {
+    font-family: var(--third-font);
+    font-size: 30px;
+}
+/* PRODUCTS SECTION */
