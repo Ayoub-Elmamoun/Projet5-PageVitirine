@@ -42,6 +42,7 @@ header nav {
 }
 
     /* TITLE & DESCRIPTION SECTION */
+
 .description{
     display: flex;
     flex-direction: column;
@@ -63,4 +64,13 @@ header nav {
     font-family: var(--third-font);
     font-size: 30px;
 }
+
 /* PRODUCTS SECTION */
+
+.OurProducts {
+    display: flex;
+    justify-content: center;
+}
+.OurProducts-title {
+    border-bottom: 2px solid ;
+}
