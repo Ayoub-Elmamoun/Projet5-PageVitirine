@@ -93,6 +93,12 @@ header nav {
     background-image: url(./icons/gallery-img2.jpg);
     background-size: cover;
 }
+.pic3-cont {
+    width: 360px;
+    height: 558px;
+    background-image: url(./icons/gallery-img3.jpg);
+    background-size: cover;
+}
 
 .pic4-cont {
     width: 360px;
