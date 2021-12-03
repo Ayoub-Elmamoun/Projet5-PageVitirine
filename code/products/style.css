@@ -11,6 +11,14 @@
 
     /* NAV STUFF */
 
+b {
+  font-size:18px; 
+}
+
+p {
+  font-family: var(--first-color); 
+}
+
 h2 {
     font-family: var(--second-font);
     font-size: 35px;
