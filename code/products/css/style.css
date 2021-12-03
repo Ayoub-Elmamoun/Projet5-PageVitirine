@@ -102,5 +102,6 @@ header nav {
 /* FOOTER STUFF */
 
 footer {
-    background-image: url();
+    background-color: #343434;
+    color: white;
 }
