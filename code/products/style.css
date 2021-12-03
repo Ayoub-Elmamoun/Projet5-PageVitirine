@@ -54,15 +54,21 @@ header nav {
     background-size: cover;
     color:white;
 }
-
+.des-child {
+    flex-direction: column;
+    width: 70%;
+}
 .title {
    font-family: var(--second-font);
-   font-size: 50px; 
+   font-size: 50px;
+   width: 30%;
+   margin: 0px 50px; 
 }
 
 .title-des {
     font-family: var(--third-font);
     font-size: 30px;
+    
 }
 
 /* PRODUCTS SECTION */
@@ -78,8 +84,11 @@ header nav {
 .products-pics {
     margin: 0 160px;
     height: 600px;
+    display: flex;
 }
-
+.pic1-cont, .pic2-cont {
+    display: inline;
+}
 .pic1-cont {
     width: 360px;
     height: 243px;
