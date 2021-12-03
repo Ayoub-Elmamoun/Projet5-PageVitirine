@@ -54,21 +54,20 @@ header nav {
     background-size: cover;
     color:white;
 }
-.des-child {
-    flex-direction: column;
-    width: 70%;
+.des-child1, .des-child2 {
+    display: flex;
+    justify-content: center;
+    height: 75px; 
 }
 .title {
    font-family: var(--second-font);
    font-size: 50px;
-   width: 30%;
-   margin: 0px 50px; 
 }
 
 .title-des {
     font-family: var(--third-font);
     font-size: 30px;
-    
+ 
 }
 
 /* PRODUCTS SECTION */
@@ -77,48 +76,17 @@ header nav {
     display: flex;
     justify-content: center;
 }
+
 .OurProducts-title {
     border-bottom: 2px solid;
 }
 
-.products-pics {
-    margin: 0 160px;
-    height: 600px;
-    display: flex;
-}
-.pic1-cont, .pic2-cont {
-    display: inline;
-}
-.pic1-cont {
+.pic1 , .pic2 , .pic4 , .pic5 {
     width: 360px;
     height: 243px;
-    background-image: url(./icons/gallery-img1.jpg);
-    background-size: cover;
 }
 
-.pic2-cont {
+.pic3 {
     width: 360px;
-    height: 243px;
-    background-image: url(./icons/gallery-img2.jpg);
-    background-size: cover;
-}
-.pic3-cont {
-    width: 360px;
-    height: 558px;
-    background-image: url(./icons/gallery-img3.jpg);
-    background-size: cover;
-}
-
-.pic4-cont {
-    width: 360px;
-    height: 243px;
-    background-image: url(./icons/gallery-img4.jpg);
-    background-size: cover;
-}
-
-.pic5-cont {
-    width: 360px;
-    height: 243px;
-    background-image: url(./icons/gallery-img5.jpg);
-    background-size: cover;
+    height: 558px ;
 }
