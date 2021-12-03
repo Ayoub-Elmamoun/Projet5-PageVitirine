@@ -102,6 +102,7 @@ header nav {
 /* FOOTER STUFF */
 
 footer {
+    font-family: var(--first-font);
     background-color: #343434;
     color: white;
 }
