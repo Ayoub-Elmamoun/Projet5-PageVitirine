@@ -58,7 +58,7 @@ header nav {
     justify-content: center;
     width: 100%;
     height: 600px;
-    background-image: url(https://ibb.co/Ks4VSHn);
+    background-image: url(../icons/home-bg.jpg);
     background-size: cover;
     color:white;
 }
