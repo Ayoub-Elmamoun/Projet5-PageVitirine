@@ -77,3 +77,19 @@ header nav {
     font-size: 30px;
  
 }
+
+/* FOOTER STUFF */
+
+footer  {
+    margin-top: 30px;
+    background-color: #343434;
+    color: white;
+}
+ footer section {
+    display: flex;
+    justify-content: center;
+ }
+footer section p {
+font-family: var(--second-font);
+font-size: 25px;
+}
