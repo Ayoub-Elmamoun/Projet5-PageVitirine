@@ -101,12 +101,16 @@ header nav {
 
 /* FOOTER STUFF */
 
-footer {
+footer  {
+    margin-top: 30px;
     background-color: #343434;
     color: white;
 }
-
-footer h3 {
+ footer section {
+    display: flex;
+    justify-content: center;
+ }
+footer section p {
 font-family: var(--second-font);
 font-size: 25px;
 }
